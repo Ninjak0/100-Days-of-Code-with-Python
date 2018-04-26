@@ -1,3 +1,6 @@
+//Countdown timer
+//You enter a number, which is in seconds and then a countdown begins
+
 import sys
 import time
 from datetime import datetime
