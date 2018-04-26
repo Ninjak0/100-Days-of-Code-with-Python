@@ -1,5 +1,6 @@
 //Countdown timer
 //You enter a number, which is in seconds and then a countdown begins
+//The program also tells you the time it will be at the end of the countdown
 
 import sys
 import time
