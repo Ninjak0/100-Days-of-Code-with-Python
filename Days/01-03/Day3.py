@@ -100,17 +100,15 @@ print()
 print("Were you able to accomplish the task?")
 done = ""
 
-while done.upper() != "N" or "Y":
+while done.upper() != "N" and "Y":
     done = input(
         "Please enter Y if you are done or N if you need to start another"
         " cycle: ")    
     if done.upper() == "N":
         print("Let's go again!")
         main_block()
-        break
     elif done.upper() == "Y":
         print("Nicely done! Goodbye!")
-        break
     else:
         print("Invalid choice!")
         print()
