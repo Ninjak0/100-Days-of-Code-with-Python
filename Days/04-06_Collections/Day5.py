@@ -10,7 +10,8 @@ Movie = collections.namedtuple("Movie", "title year score")
 
 def get_movies_by_director(data=movies_csv):
     '''
-
+    Extracts all movies from csv and stores them in a dictionary
+    where keys are directors, and values is a list of movies (named tuples)
     '''
     directors = collections.defaultdict(list)
     with open(data, encoding="UTF-8") as f:
