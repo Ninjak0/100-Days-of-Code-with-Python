@@ -1,0 +1,16 @@
+Attacker,Rock,Gun,Lightning,Devil,Dragon,Water,Air,Paper,Sponge,Wolf,Tree,Human,Snake,Scissors,Fire
+Rock,draw,loss,loss,loss,loss,loss,loss,loss,win,win,win,win,win,win,win
+Gun,win,draw,loss,loss,loss,loss,loss,loss,loss,win,win,win,win,win,win
+Lightning,win,win,draw,loss,loss,loss,loss,loss,loss,loss,win,win,win,win,win
+Devil,win,win,win,draw,loss,loss,loss,loss,loss,loss,loss,win,win,win,win
+Dragon,win,win,win,win,draw,loss,loss,loss,loss,loss,loss,loss,win,win,win
+Water,win,win,win,win,win,draw,loss,loss,loss,loss,loss,loss,loss,win,win
+Air,win,win,win,win,win,win,draw,loss,loss,loss,loss,loss,loss,loss,win
+Paper,win,win,win,win,win,win,win,draw,loss,loss,loss,loss,loss,loss,loss
+Sponge,loss,win,win,win,win,win,win,win,draw,loss,loss,loss,loss,loss,loss
+Wolf,loss,loss,win,win,win,win,win,win,win,draw,loss,loss,loss,loss,loss
+Tree,loss,loss,loss,win,win,win,win,win,win,win,draw,loss,loss,loss,loss
+Human,loss,loss,loss,loss,win,win,win,win,win,win,win,draw,loss,loss,loss
+Snake,loss,loss,loss,loss,loss,win,win,win,win,win,win,win,draw,loss,loss
+Scissors,loss,loss,loss,loss,loss,loss,win,win,win,win,win,win,win,draw,loss
+Fire,loss,loss,loss,loss,loss,loss,loss,win,win,win,win,win,win,win,draw
