@@ -4,13 +4,13 @@ import sys
 
 symbols = itertools.cycle("-\|/")
 
-# while True:
-#     sys.stdout.write("\r" + next(symbols))
-#     sys.stdout.flush()
-#     time.sleep(0.25)
+while True:
+    sys.stdout.write("\r" + next(symbols))
+    sys.stdout.flush()
+    time.sleep(0.25)
 
-# for letter in itertools.product("julian", repeat=2):
-#     print(letter)
+for letter in itertools.product("julian", repeat=2):
+    print(letter)
 
 friends = "mike bob julian".split()
 
