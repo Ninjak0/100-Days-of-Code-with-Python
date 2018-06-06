@@ -49,9 +49,12 @@ def parse_row(row):
     row['average_precipitation'] = float(row['average_precipitation'])
     row['record_precipitation'] = float(row['record_precipitation'])
 
-    record = Record(
-        **row
-    )
+    record = Record(**row)
+    # The above line is the same as saying:
+    # date = row.get("data")
+    # actual_mean_temp = row.get("actual_mean_temp")
+    # actual_min_temp = row.get("actual_min_temp")
+    # and so on...
 
     return record
 
